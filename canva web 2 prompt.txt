@@ -1,0 +1,1157 @@
+
+
+Questions
+
+1.  Which of the following is a valid variable name in Python?
+    a) 2myVar
+    b) my-Var
+    c) _myVar
+    d) my Var
+
+2.  What is the data type of x if x = 10?
+    a) float
+    b) int
+    c) str
+    d) boolean
+
+3.  What is the output of type(3.14)`?
+    a) <class 'int'>
+    b) <class 'float'>
+    c) <class 'str'>
+    d) <class 'decimal'>
+
+4.  Which of these is a mutable data type in Python?
+    a) int
+    b) tuple
+    c) str
+    d) list
+
+5.  What will be the value of a after a = 5 // 2?
+    a) 2.5
+    b) 2
+    c) 3
+    d) 0
+
+6.  Which operator is used for exponentiation in Python?
+    a) /
+    b) //
+    c) **
+    d) ^
+
+7.  What is the output of print(10 > 5 and 7 < 3)?
+    a) True
+    b) False
+    c) Error
+    d) None
+
+8.  Given x = 10 and y = 5, what is the result of x % y?
+    a) 2
+    b) 0
+    c) 5
+    d) 10
+
+9.  Which of the following comparison operators means "not equal to"?
+    a) =!
+    b) <>
+    c) !=
+    d) ==
+
+10. What is the output of the following code snippet?
+
+   
+    x = 10
+    y = 3
+    print(x * y - x / y)
+    
+
+    a) 26.666...
+    b) 27
+    c) 30
+    d) 26
+
+11. What will be the output if x = 5 and the code is:
+
+   
+    if x > 10:
+        print("A")
+    elif x > 5:
+        print("B")
+    else:
+        print("C")
+    
+
+    a) A
+    b) B
+    c) C
+    d) Nothing (Error)
+
+12. Which keyword is used to start an if statement in Python?
+    a) check
+    b) if
+    c) when
+    d) then
+
+13. What is the correct indentation for a block of code in Python after a conditional statement?
+    a) Any number of spaces
+    b) 2 spaces
+    c) 4 spaces
+    d) At least one space
+
+14. What happens if you don't use proper indentation in Python?
+    a) The code will run with a warning.
+    b) It will cause an IndentationError.
+    c) It will automatically correct itself.
+    d) The code will run, but with unexpected results.
+
+15. What is the output of this code?
+
+    
+    a = 15
+    b = 10
+    if a > b:
+        print("a is greater")
+    elif b > a:
+        print("b is greater")
+    else:
+        print("They are equal")
+    
+
+    a) a is greater
+    b) b is greater
+    c) They are equal
+    d) Error
+
+16. Which of the following is a logical operator?
+    a) +
+    b) in
+    c) or
+    d) is
+
+17. What is the output of bool(0)?
+    a) True
+    b) False
+    c) 0
+    d) None
+
+18. Which statement is used for a multi-way conditional check?
+    a) if-then-else
+    b) switch
+    c) if-elif-else
+    d) conditional-if
+
+19. What is the purpose of the pass statement in an if block?
+    a) It signifies the end of the if block.
+    b) It acts as a placeholder when no code is needed.
+    c) It skips the next line of code.
+    d) It generates an error if executed.
+
+20. What is the data type of the value returned by a comparison operator (e.g., > or ==)?
+    a) int
+    b) float
+    c) boolean
+    d) str
+
+21. What will be the value of result after result = (5 > 3) and (8 < 2)?
+    a) True
+    b) False
+    c) Error
+    d) None
+
+22. Which of these is an augmented assignment operator?
+    a) =+
+    b) +=
+    c) ==
+    d) -\>
+
+23. What is the output of print("hello" + "world")?
+    a) "hello world"
+    b) "helloworld"
+    c) hello world
+    d) Error
+
+24. If x = 'Python' and y = 3, what is the output of `print(x * y)`?
+    a) PythonPythonPython
+    b) Python3
+    c) Error
+    d) Python Python Python
+
+25. What is the output of print(type([]))?
+    a) <class 'tuple'>
+    b) <class 'list'>
+    c) <class 'set'>
+    d) <class 'dict'>
+
+26. Which of the following statements is true about Python variables?
+    a) Variables must be declared with a type before assignment.
+    b) Variables are dynamically typed.
+    c) Variable names can contain spaces.
+    d) Variable names are case-insensitive.
+
+27. What is the result of the expression 17 % 5?
+    a) 3
+    b) 2
+    c) 0
+    d) 1
+
+28. Which operator has the lowest precedence in Python?
+    a) *
+    b) +
+    c) and
+    d) =
+
+29. What is the output of:
+
+   
+    if False:
+        print("Hello")
+    else:
+        print("Goodbye")
+    
+
+    a) Hello
+    b) Goodbye
+    c) Error
+    d) Nothing
+
+30. What is the data type of {"name": "Alice", "age": 30}?
+    a) list
+    b) tuple
+    c) dict
+    d) set
+
+
+31. Which loop is used to iterate over a sequence (like a list, tuple, or string)?
+    a) while
+    b) do-while
+    c) for
+    d) until
+
+32. What is the output of the following code?
+
+   
+    count = 0
+    while count < 3:
+        print("Hello")
+        count += 1
+   
+
+    a) Hello (printed once)
+    b) Hello (printed twice)
+    c) Hello (printed three times)
+    d) Error
+
+33. Which keyword is used to immediately exit a loop?
+    a) skip
+    b) next
+    c) break
+    d) continue
+
+34. What does the continue statement do in a loop?
+    a) Exits the loop entirely.
+    b) Skips the rest of the current iteration and moves to the next.
+    c) Restarts the loop from the beginning.
+    d) Repeats the current iteration indefinitely.
+
+35. What will be the output of this loop?
+
+    
+    for i in range(5):
+        if i == 3:
+            break
+        print(i)
+    
+
+    a) 0 1 2 3 4
+    b) 0 1 2 3
+    c) 0 1 2
+    d) 3
+
+36. What is the output of this loop?
+
+  
+    for i in range(3):
+        if i == 1:
+            continue
+        print(i)
+   
+
+    a) 0 1 2
+    b) 0 2
+    c) 1 2
+    d) 0 1
+
+37. Which statement correctly generates numbers from 0 to 4 (inclusive)?
+    a) range(0, 4)
+    b) range(5)
+    c) range(0, 5, 1)
+    d) Both b and c
+
+38. What is the purpose of the else block in a for loop?
+    a) It executes if the loop finishes without encountering a break statement.
+    b) It executes if the loop finishes with a break statement.
+    c) It always executes after the loop.
+    d) It is not allowed in for loops.
+
+39. What is the output of the following code?
+
+    
+    for char in "Python":
+        print(char, end=" ")
+    
+
+    a) P y t h o n
+    b) Python
+    c) P y t h o n (each on a new line)
+    d) Error
+
+40. How can you include an external set of functions in your Python script?
+    a) using the load keyword
+    b) using the include keyword
+    c) using the import keyword
+    d) using the attach keyword
+
+41. If a module named my_module.py contains a function greet(), how would you call greet() after importing the module?
+    a) greet()
+    b) my_module.greet()
+    c) call greet()
+    d) import my_module.greet()
+
+42. What is the purpose of the from module import function_name statement?
+    a) It renames the module.
+    b) It imports the entire module.
+    c) It imports specific functions directly into the current namespace.
+    d) It prevents the function from being used.
+
+43. Which of the following is typically used for mathematical operations like sqrt or sin?
+    a) random module
+    b) os module
+    c) math module
+    d) sys module
+
+44. What happens if you try to import a module that does not exist?
+    a) It runs with a warning.
+    b) It raises an `ImportError`.
+    c) It creates an empty module.
+    d) It prompts the user to create the module.
+
+45. What is __name__ when a Python script is run directly?
+    a) "module"
+    b) "main"
+    c) "script"
+    d) The name of the file
+
+46. Which of the following is a correct way to create an empty list in Python?
+    a) my_list = {}
+    b) `my_list = ()`
+    c) my_list = []
+    d) my_list = list()
+    e) Both c and d
+
+47. What is the index of the first element in a Python list?
+    a) 1
+    b) 0
+    c) -1
+    d) Depends on the list size
+
+48. Given my_list = [10, 20, 30], what is the output of my_list.append(40) followed by print(my_list)?
+    a) [10, 20, 30]
+    b) [10, 20, 30, 40]
+    c) [40, 10, 20, 30]
+    d) Error
+
+49. Which method is used to remove a specific element from a list?
+    a) remove()
+    b) delete()
+    c) pop()
+    d) clear()
+
+50. What is the key difference between a list and a tuple in Python?
+    a) Lists are ordered, tuples are unordered.
+    b) Lists are immutable, tuples are mutable.
+    c) Lists are mutable, tuples are immutable.
+    d) Lists can store different data types, tuples can only store one.
+
+51. How do you access the second element of a tuple my_tuple = (1, 2, 3)?
+    a) my_tuple[1]
+    b) my_tuple[2]
+    c) my_tuple(2)
+    d) my_tuple.get(1)
+
+52. What is the output of print("Python"[1:4])`?
+    a) Pyt
+    b) yth
+    c) Pyth
+    d) ytho
+
+53. Which of the following is an immutable data type?
+    a) List
+    b) Dictionary
+    c) Set
+    d) String
+
+54. What is the result of len("programming")?
+    a) 11
+    b) 12
+    c) 10
+    d) Error
+
+55. How can you convert a string s = "123" into an integer?
+    a) int(s)
+    b) to_int(s)
+    c) s.to_int()
+    d) convert(s, int)
+
+56. What is the correct way to add an element to a list?
+    a) list.add(element)
+    b) list.insert(element)
+    c) list.append(element)
+    d) list[index] = element
+
+57. Which of these is a valid way to create a tuple with a single element?
+    a) my_tuple = (5)
+    b) my_tuple = (5,)
+    c) my_tuple = tuple(5)
+    d) my_tuple = [5]
+
+58. What will be the output of `print("hello".upper())`?
+    a) hello
+    b) Hello
+    c) HELLO
+    d) Error
+
+59. How would you check if a substring "world" is present in the string "Hello World"?
+    a) "world" in "Hello World"`
+    b) "Hello World".contains("world")
+    c) "Hello World" == "world"
+    d) "world" from "Hello World"
+
+60. What is string concatenation?
+    a) Splitting a string into multiple parts.
+    b) Joining two or more strings together.
+    c) Reversing the order of characters in a string.
+    d) Converting a string to uppercase.
+
+61. Which of the following defines a set in Python?
+    a) `my_set = []`
+    b) `my_set = ()`
+    c) `my_set = {}`
+    d) `my_set = set()`
+    e) Both c and d
+
+62. What is a key characteristic of a Python set?
+    a) It stores elements in a specific order.
+    b) It allows duplicate elements.
+    c) It contains only unique elements.
+    d) Elements are accessed by index.
+
+63. Given `my_set = {1, 2, 3}`, what is the output of `my_set.add(4)` followed by `print(my_set)`?
+    a) `{1, 2, 3, 4}`
+    b) `{4, 1, 2, 3}`
+    c) `{1, 2, 3}` (no change)
+    d) Error
+
+64. What happens if you try to add an element that already exists to a set?
+    a) It raises an error.
+    b) It adds another copy of the element.
+    c) The set remains unchanged.
+    d) It updates the existing element.
+
+65. Which operation is used to find elements present in both set A and set B?
+    a) Union
+    b) Intersection
+    c) Difference
+    d) Symmetric Difference
+
+66. What is the data type of the keys in a Python dictionary?
+    a) Any mutable type
+    b) Any immutable type
+    c) Only strings
+    d) Only integers
+
+67. How do you create an empty dictionary in Python?
+    a) `my_dict = []`
+    b) `my_dict = ()`
+    c) `my_dict = {}`
+    d) `my_dict = dict()`
+    e) Both c and d
+
+68. Given `my_dict = {"a": 1, "b": 2}`, how do you access the value associated with the key "b"?
+    a) `my_dict["b"]`
+    b) `my_dict.b`
+    c) `my_dict(b)`
+    d) `my_dict.get_value("b")`
+    e) Both a and d
+
+69. What happens if you try to access a non-existent key in a dictionary using square brackets `[]`?
+    a) It returns `None`.
+    b) It raises a `KeyError`.
+    c) It returns an empty string.
+    d) It creates the key with a `None` value.
+
+70. Which method is used to get a list of all keys in a dictionary?
+    a) `values()`
+    b) `items()`
+    c) `keys()`
+    d) `get_keys()`
+
+71. What is the output of `print({}.keys())`?
+    a) `[]`
+    b) `dict_keys([])`
+    c) `()`
+    d) Error
+
+72. Which of the following is true about dictionary keys?
+    a) They must be unique.
+    b) They can be duplicated.
+    c) They must be strings.
+    d) They can be mutable types like lists.
+
+73. What is the purpose of a function in Python?
+    a) To store data permanently.
+    b) To define a block of reusable code.
+    c) To perform mathematical calculations only.
+    d) To handle errors in a program.
+
+74. Which keyword is used to define a function in Python?
+    a) `func`
+    b) `define`
+    c) `def`
+    d) `function`
+
+75. How do you call a function named `greet` that takes no arguments?
+    a) `greet[]`
+    b) `call greet()`
+    c) `greet()`
+    d) `run greet`
+
+76. What is returned by a Python function if it doesn't explicitly have a `return` statement?
+    a) An empty string
+    b) 0
+    c) `None`
+    d) An empty tuple
+
+77. What is a parameter in a function definition?
+    a) The value passed to the function when it's called.
+    b) The variable listed inside the parentheses in the function definition.
+    c) The name of the function.
+    d) The result returned by the function.
+
+78. What is the output of this code?
+
+   
+    def add_numbers(a, b):
+        return a + b
+    print(add_numbers(5, 3))
+    
+
+    a) 5 + 3
+    b) 8
+    c) add_numbers(5, 3)
+    d) Error
+
+79. What are arguments in the context of functions?
+    a) Variables defined inside the function.
+    b) The values passed to the function when it is called.
+    c) The names of the parameters.
+    d) The return values of the function.
+
+80. What is a docstring in Python?
+    a) A comment that is ignored by the interpreter.
+    b) A string literal used for documentation within modules, functions, classes, or methods.
+    c) A special type of variable used for debugging.
+    d) An error message.
+
+81. Which built-in function is used to get input from the user?
+    a) `get_input()`
+    b) `read()`
+    c) `input()`
+    d) `receive()`
+
+82. What is the data type of the value returned by the `input()` function?
+    a) int
+    b) float
+    c) str
+    d) depends on user input
+
+83. How do you open a file named `data.txt` in read mode?
+    a) `open("data.txt", "r")`
+    b) `read("data.txt")`
+    c) `file.open("data.txt", "read")`
+    d) `open_file("data.txt")`
+
+84. Which mode is used to open a file for writing, truncating the file if it already exists?
+    a) "a"
+    b) "r+"
+    c) "w"
+    d) "x"
+
+85. What does the `with open(...) as f:` statement ensure?
+    a) The file is opened in write mode.
+    b) The file is automatically closed after its block is exited.
+    c) The file can only be read, not written to.
+    d) It handles all possible file-related errors.
+
+86. What method is used to read the entire content of a file into a single string?
+    a) `readline()`
+    b) `readlines()`
+    c) `read()`
+    d) `get_content()`
+
+87. What happens if you try to open a file in "r" (read) mode and the file does not exist?
+    a) It creates a new empty file.
+    b) It raises a `FileNotFoundError`.
+    c) It returns `None`.
+    d) It prompts the user to create the file.
+
+88. Which method is used to write a string to a file?
+    a) `append()`
+    b) `put()`
+    c) `write()`
+    d) `store()`
+
+89. What is the output of `print(input("Enter something: "))` if the user types `Python`?
+    a) Enter something:
+    b) Python
+    c) Enter something: Python
+    d) The string "Python" followed by a newline
+
+90. Which of the following is correct for closing a file after writing?
+    a) `file.close()`
+    b) `file.end()`
+    c) `file.stop()`
+    d) `file.finish()`
+
+91. What is an exception in Python?
+    a) A syntax error in the code.
+    b) An error that occurs during program execution.
+    c) A warning message that can be ignored.
+    d) A type of variable.
+
+92. Which block of code is used to catch and handle exceptions in Python?
+    a) `try-catch`
+    b) `try-except`
+    c) `try-finally`
+    d) `handle-exception`
+
+93. What is the purpose of the `finally` block in exception handling?
+    a) It executes only if an exception occurs.
+    b) It executes only if no exception occurs.
+    c) It always executes, regardless of whether an exception occurred or not.
+    d) It is used to define custom exceptions.
+
+94. What is the output of the following code if the user enters `0`?
+
+    
+    try:
+        num = int(input("Enter a number: "))
+        result = 10 / num
+        print(result)
+    except ZeroDivisionError:
+        print("Cannot divide by zero!")
+    except ValueError:
+        print("Invalid input!")
+    
+
+    a) Error
+    b) Cannot divide by zero!
+    c) Invalid input!
+    d) 10.0
+
+95. What happens if the user enters "abc" in the code above (Q94)?
+    a) Error
+    b) Cannot divide by zero!
+    c) Invalid input!
+    d) Python prints "abc"
+
+96. Which keyword is used to explicitly raise an exception in Python?
+    a) `throw`
+    b) `create`
+    c) `raise`
+    d) `trigger`
+
+97. What is the base class for all built-in exceptions in Python?
+    a) `Error`
+    b) `Exception`
+    c) `RuntimeError`
+    d) `BaseError`
+
+98. What is object-oriented programming (OOP)?
+    a) A programming paradigm based on the concept of "objects", which can contain data and code.
+    b) A method for writing code in a linear fashion.
+    c) A way to organize data in databases.
+    d) A graphical user interface design method.
+
+99. What is a "class" in Python OOP?
+    a) An instance of an object.
+    b) A blueprint for creating objects (a particular data type).
+    c) A function definition.
+    d) A built-in data structure.
+
+100. What is an "object" (or "instance") in Python OOP?
+     a) A definition for a class.
+     b) A variable that holds a class name.
+     c) A specific realization of a class, containing its own data.
+     d) A method within a class.
+
+101. Which keyword is used to define a class in Python?
+     a) `def`
+     b) `class`
+     c) `object`
+     d) `type`
+
+102. What is the special method `__init__` used for in a class?
+     a) To delete an object.
+     b) To initialize the attributes of an object when it is created.
+     c) To perform arithmetic operations.
+     d) To define a static method.
+
+103. What is "self" referring to inside a class method?
+     a) The class itself.
+     b) The instance of the class (the object) on which the method is called.
+     c) A reserved Python keyword for global variables.
+     d) A parameter that holds the return value.
+
+104. What is "Encapsulation" in OOP?
+     a) The process of hiding the internal state and functionality of an object from the outside.
+     b) The ability of an object to take on many forms.
+     c) The process of creating new classes from existing ones.
+     d) The ability to write code once and reuse it multiple times.
+
+105. What is "Inheritance" in OOP?
+     a) The process of creating multiple objects from a single class.
+     b) The ability of one class (child/derived) to acquire the properties and behaviors of another class (parent/base).
+     c) Hiding data within a class.
+     d) Defining different behaviors for the same method in different classes.
+
+106. What is "Polymorphism" in OOP?
+     a) The ability of a class to have multiple constructors.
+     b) The ability of an object to take on many forms (e.g., a method behaving differently in different classes).
+     c) Encapsulating data within methods.
+     d) Creating multiple instances of the same class.
+
+107. Which of the following is true about instance variables?
+     a) They are shared by all instances of a class.
+     b) They belong to the class itself, not to specific instances.
+     c) Each instance of a class has its own copy of instance variables.
+     d) They are defined outside the `__init__` method.
+
+108. How do you call a method `my_method` of an object `my_obj`?
+     a) `my_method(my_obj)`
+     b) `my_obj.my_method()`
+     c) `call my_obj.my_method()`
+     d) `my_obj->my_method()`
+
+109. What is the purpose of the `super()` function in inheritance?
+     a) To call a method from a grandparent class.
+     b) To call a method from the child class.
+     c) To call a method from the parent/superclass.
+     d) To prevent method overriding.
+
+110. Which method is called when an object is about to be destroyed (garbage collected)?
+     a) `__new__`
+     b) `__del__`
+     c) `__exit__`
+     d) `__delete__`
+
+111. What is the output of this code?
+     
+     class MyClass:
+     def __init__(self, value):
+     self.value = value
+     def get_value(self):
+     return self.value
+
+
+obj = MyClass(10)
+print(obj.get_value())
+
+a) MyClass
+b) obj.get_value()
+c) 10
+d) Error
+
+
+112. What concept allows you to use the same operator or function name to perform different actions depending on the data types?
+     a) Inheritance
+     b) Encapsulation
+     c) Polymorphism (specifically, operator overloading/method overriding)
+     d) Abstraction
+
+113. What is the purpose of `@classmethod` decorator?
+     a) To define a method that belongs to the instance of the class.
+     b) To define a method that operates on the class itself, rather than an instance.
+     c) To define a method that is private.
+     d) To define a method that is inherited by all subclasses.
+
+114. What is the purpose of `@staticmethod` decorator?
+     a) To define a method that takes `self` as its first argument.
+     b) To define a method that belongs to the class but doesn't operate on the instance or class itself.
+     c) To define a method that can only be called once.
+     d) To create a new instance of the class.
+
+115. What is the correct way to define a basic class `Car`?
+     a) `class Car:`
+     b) `def class Car:`
+     c) `Car = class()`
+     d) `create class Car:`
+
+
+116. Which module in Python is used for working with regular expressions?
+    a) `regex`
+    b) `re`
+    c) `regexp`
+    d) `pattern`
+
+117. What does `^` signify at the beginning of a regular expression pattern?
+    a) Matches the end of a string.
+    b) Matches the beginning of a string.
+    c) Matches any single character.
+    d) Matches a digit.
+
+118. What does `$` signify at the end of a regular expression pattern?
+    a) Matches the end of a string.
+    b) Matches the beginning of a string.
+    c) Matches any single character.
+    d) Matches a digit.
+
+119. Which special character matches any single character (except newline)?
+    a) `*`
+    b) `+`
+    c) `.`
+    d) `?`
+
+120. Which character class matches any digit (0-9)?
+    a) `\d`
+    b) `\w`
+    c) `\s`
+    d) `\D`
+
+121. Which character class matches any non-digit character?
+    a) `\d`
+    b) `\w`
+    c) `\s`
+    d) `\D`
+
+122. Which quantifier means "one or more occurrences" of the preceding character or group?
+    a) `*`
+    b) `+`
+    c) `?`
+    d) `{1,}`
+
+123. Which quantifier means "zero or more occurrences" of the preceding character or group?
+    a) `*`
+    b) `+`
+    c) `?`
+    d) `{0,}`
+
+124. Which quantifier means "zero or one occurrence" of the preceding character or group?
+    a) `*`
+    b) `+`
+    c) `?`
+    d) `{0,1}`
+
+125. What does `\s` match in a regular expression?
+    a) Any non-whitespace character.
+    b) Any word character.
+    c) Any whitespace character (spaces, tabs, newlines).
+    d) Any digit.
+
+126. What does `\w` match in a regular expression?
+    a) Any word character (alphanumeric + underscore).
+    b) Any non-word character.
+    c) Any whitespace character.
+    d) Any digit.
+
+127. To match exactly 3 occurrences of the character 'a', which quantifier would you use?
+    a) `a*`
+    b) `a+`
+    c) `a{3}`
+    d) `a{1,3}`
+
+128. What does `[aeiou]` match?
+    a) The exact string "aeiou".
+    b) Any single character that is 'a', 'e', 'i', 'o', or 'u'.
+    c) Any character *except* 'a', 'e', 'i', 'o', or 'u'.
+    d) A sequence of vowels.
+
+129. What does `[^0-9]` match?
+    a) Any digit.
+    b) Any character that is *not* a digit.
+    c) Only the characters '^', '0', '9'.
+    d) A range from 0 to 9.
+
+130. Which function in the `re` module is used to search for the first occurrence of a pattern in a string?
+    a) `re.findall()`
+    b) `re.match()`
+    c) `re.search()`
+    d) `re.find()`
+
+131. Which function in the `re` module checks for a match only at the beginning of the string?
+    a) `re.findall()`
+    b) `re.match()`
+    c) `re.search()`
+    d) `re.fullmatch()`
+
+132. What does `re.findall()` return if multiple matches are found?
+    a) The first match object.
+    b) A list of all non-overlapping matches.
+    c) A boolean (True/False).
+    d) The total count of matches.
+
+133. To ignore case sensitivity in a regular expression, which flag would you use with `re.search()`?
+    a) `re.DOTALL`
+    b) `re.MULTILINE`
+    c) `re.IGNORECASE`
+    d) `re.ASCII`
+
+134. What does `|` (pipe) represent in regular expressions?
+    a) Logical AND
+    b) Logical OR (alternation)
+    c) Concatenation
+    d) Grouping
+
+135. What is the purpose of parentheses `()` in regular expressions?
+    a) To define character sets.
+    b) To create capturing groups.
+    c) To signify optional elements.
+    d) To match literal parentheses.
+
+136. What is the result of `re.sub(r'\s+', '-', 'hello   world')`?
+    a) `hello-world`
+    b) `hello---world`
+    c) `helloworld`
+    d) `hello world`
+
+137. Which of these patterns would match "cat", "cot", and "cut"?
+    a) `c[a-u]t`
+    b) `c(a|o|u)t`
+    c) `c.t`
+    d) All of the above
+
+138. How do you escape a special character (e.g., a literal dot `.` ) in a regex pattern?
+    a) `/.`
+    b) `\.`
+    c) `\.`
+    d) `//.`
+
+139. What is the output of `re.search(r'Py', 'Python').group()`?
+    a) `Python`
+    b) `Py`
+    c) `thon`
+    d) `None`
+
+140. Which pattern would correctly match a valid email address ?
+    a) `\S+@\S+\.\S+`
+    b) `.*@.*`
+    c) `[a-z]+@[a-z]+`
+    d) `\w+@\w+\.\w+`
+
+141. What does `re.compile()` do?
+    a) It executes a regular expression.
+    b) It creates a regular expression object, compiling the pattern for efficiency.
+    c) It raises a `SyntaxError` if the pattern is invalid.
+    d) It finds all matches of a pattern.
+
+142. What is the difference between `re.match()` and `re.search()`?
+    a) `match()` finds all occurrences, `search()` finds the first.
+    b) `match()` only matches at the beginning of the string, `search()` matches anywhere.
+    c) `match()` returns a list, `search()` returns a match object.
+    d) `match()` is for digits, `search()` is for words.
+
+143. Which of the following matches a word boundary?
+    a) `\b`
+    b) `\B`
+    c) `^`
+    d) `$`
+
+144. To match a literal backslash `\` in a string, what should the regex pattern be?
+    a) `\`
+    b) `\\`
+    c) `\\\`
+    d) `\\\\`
+
+145. If you want to replace all occurrences of a pattern with a new string, which function from the `re` module would you use?
+    a) `re.find_and_replace()`
+    b) `re.change()`
+    c) `re.sub()`
+    d) `re.replace_all()`
+
+
+
+
+
+
+
+Answers
+
+1.  c) _myVar
+2.  b) int
+3.  b) <class 'float'>
+4.  d) list
+5.  b) 2
+6.  c) **
+7.  b) False
+8.  b) 0
+9.  c) !=
+10. a) 26.666... (27 - 30/3 = 27 - 10 = 20, actually 30 - (10/3) = 30 - 3.33... = 26.666...) - Correction: 10 * 3 - 10 / 3 = 30 - 3.333... = 26.666...
+11. c) C
+12. b) if
+13. c) 4 spaces (While technically any consistent indentation works, 4 spaces is the PEP 8 standard and highly recommended practice.)
+14. b) It will cause an IndentationError.
+15. a) a is greater
+16. c) or
+17. b) False
+18. c) if-elif-else
+19. b) It acts as a placeholder when no code is needed.
+20. c) boolean
+21. b) False (True and False results in False)
+22. b) +=
+23. b) "helloworld"
+24. a) PythonPythonPython
+25. b) <class 'list'>
+26. b) Variables are dynamically typed.
+27. b) 2
+28. c) and (Logical operators usually have lower precedence than arithmetic and comparison operators)
+29. b) Goodbye
+30. c) dict
+31. c) for
+32. c) Hello (printed three times)
+33. c) break
+34. b) Skips the rest of the current iteration and moves to the next.
+35. c) 0 1 2
+36. b) 0 2
+37. d) Both b and c
+38. a) It executes if the loop finishes without encountering a `break` statement.
+39. a) P y t h o n
+40. c) using the import keyword
+41. b) my_module.greet()
+42. c) It imports specific functions directly into the current namespace.
+43. c) math module
+44. b) It raises an ImportError.
+45. b) "main"
+46. e) Both c and d
+47. b) 0
+48. b) [10, 20, 30, 40]
+49. a) remove()
+50. c) Lists are mutable, tuples are immutable.
+51. a) my_tuple[1]
+52. b) yth
+53. d) String
+54. a) 11
+55. a) int(s)
+56. c) list.append(element)
+57. b) my_tuple = (5,)`
+58. c) HELLO
+59. a) "world" in "Hello World"
+60. b) Joining two or more strings together.
+61. d
+62. c) It contains only unique elements.
+63. a) `{1, 2, 3, 4}` (Sets are unordered, so the printed order might vary but the elements will be present)
+64. c) The set remains unchanged.
+65. b) Intersection
+66. b) Any immutable type
+67. e) Both c and d
+68. a) `my_dict["b"]`
+69. b) It raises a `KeyError`.
+70. c) `keys()`
+71. b) `dict_keys([])`
+72. a) They must be unique.
+73. b) To define a block of reusable code.
+74. c) `def`
+75. c) `greet()`
+76. c) `None`
+77. b) The variable listed inside the parentheses in the function definition.
+78. b) 8
+79. b) The values passed to the function when it is called.
+80. b) A string literal used for documentation within modules, functions, classes, or methods.
+81. c) `input()`
+82. c) str
+83. a) `open("data.txt", "r")`
+84. c) "w"
+85. b) The file is automatically closed after its block is exited.
+86. c) `read()`
+87. b) It raises a `FileNotFoundError`.
+88. c) `write()`
+89. c) Enter something: Python
+90. a) `file.close()`
+91. b) An error that occurs during program execution.
+92. b) `try-except`
+93. c) It always executes, regardless of whether an exception occurred or not.
+94. b) Cannot divide by zero\!
+95. c) Invalid input\!
+96. c) `raise`
+97. b) `Exception`
+98. a) A programming paradigm based on the concept of "objects", which can contain data and code.
+99. b) A blueprint for creating objects (a particular data type).
+100. c) A specific realization of a class, containing its own data.
+101. b) `class`
+102. b) To initialize the attributes of an object when it is created.
+103. b) The instance of the class (the object) on which the method is called.
+104. a) The process of hiding the internal state and functionality of an object from the outside.
+105. b) The ability of one class (child/derived) to acquire the properties and behaviors of another class (parent/base).
+106. b) The ability of an object to take on many forms (e.g., a method behaving differently in different classes).
+107. c) Each instance of a class has its own copy of instance variables.
+108. b) `my_obj.my_method()`
+109. c) To call a method from the parent/superclass.
+110. b) `__del__`
+111. c) 10
+112. c) Polymorphism (specifically, operator overloading/method overriding)
+113. b) To define a method that operates on the class itself, rather than an instance.
+114. b) To define a method that belongs to the class but doesn't operate on the instance or class itself.
+115. a) `class Car:`
+
+116. b) `re`
+117. b) Matches the beginning of a string.
+118. a) Matches the end of a string.
+119. c) `.`
+120. a) `\d`
+121. d) `\D`
+122. b) `+`
+123. a) `*`
+124. c) `?`
+125. c) Any whitespace character (spaces, tabs, newlines).
+126. a) Any word character (alphanumeric + underscore).
+127. c) `a{3}`
+128. b) Any single character that is 'a', 'e', 'i', 'o', or 'u'.
+129. b) Any character that is *not* a digit.
+130. c) `re.search()`
+131. b) `re.match()`
+132. b) A list of all non-overlapping matches.
+133. c) `re.IGNORECASE`
+134. b) Logical OR (alternation)
+135. b) To create capturing groups.
+136. a) `hello-world`
+137. d) All of the above
+138. b) `\.`
+139. b) `Py`
+140. d) `\w+@\w+\.\w+` (This is a more robust simplified example; `\S+@\S+\.\S+` also works but `\w` specifically targets word characters for parts of email.)
+141. b) It creates a regular expression object, compiling the pattern for efficiency.
+142. b) `match()` only matches at the beginning of the string, `search()` matches anywhere.
+143. a) `\b`
+144. b) `\\`
+145. c) `re.sub()`
+
+
+
+
+
+
+
+
+
+
+1.   Write a Python program that takes an integer as input from the user and prints whether it is "Even" or "Odd".
+2.  Temperature Converter: Write a Python program that converts temperature from Celsius to Fahrenheit. Take Celsius temperature as input from the user. The formula is `F = C * (9/5) + 32`.
+3.  Factorial Calculator (Iterative): Write a Python function `calculate_factorial(n)` that takes a non-negative integer `n` and returns its factorial. Do not use recursion.
+4.  List Sum:Write a Python function `sum_list_elements(numbers)` that takes a list of numbers and returns their sum. Do not use the built-in `sum()` function.
+5.  String Reverser:Write a Python function `reverse_string(s)` that takes a string `s` and returns the reversed string. Do not use slicing (`[::-1]`).
+6.  Count Vowels: Write a Python function `count_vowels(text)` that takes a string and returns the number of vowels (a, e, i, o, u, case-insensitive) in it.
+7.  Find Max in List: Write a Python function `find_max(numbers)` that takes a list of numbers and returns the largest number in the list. Do not use the built-in `max()` function.
+8.  Simple Calculator: Write a Python program that takes two numbers and an operator (+, -, \*, /) as input from the user, and performs the corresponding calculation. Handle division by zero.
+9.  Basic Login System: Write a simple Python program that asks the user for a predefined username ("admin") and password ("password123"). If both are correct, print "Login successful\!". Otherwise, print "Invalid credentials.".
+10. Unique Elements in a List: Write a Python function `get_unique_elements(input_list)` that takes a list (possibly with duplicates) and returns a new list containing only the unique elements from the original list, maintaining their original order as much as possible without using `set` directly to achieve uniqueness.
+
+
+
+
+ 
